@@ -1,2 +1,2 @@
-# DareDev-tech-devops.io
-Training session 
+# Tech Project 
+Public Repo
