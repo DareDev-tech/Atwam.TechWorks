@@ -1,0 +1,23 @@
+name: workflow
+
+on: 
+    - push
+
+
+jobs:
+    2nd job: 
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: checkout code 
+              uses: actions/checkout@v2
+
+            - name: Install cowsay Program
+              run: sudo apt-get install cowsay -y
+
+            - name: Run cowsay
+              run: cowsay "Hello, World! I choose to face my fears and tackle things i use not to do" >> output.txt
+
+
+
+
