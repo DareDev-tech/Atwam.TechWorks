@@ -1,0 +1,16 @@
+name: First job 
+
+on: 
+    - push 
+
+jobs:
+    first_job:
+        name: practice 1
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            - name: List and Read files 
+              run: |
+                echo "Files in the repository"
+                ls -l
