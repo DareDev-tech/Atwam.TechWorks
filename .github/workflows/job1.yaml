@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-    2nd job: 
+    Another_workflow: 
         runs-on: ubuntu-latest
 
         steps:
